@@ -11,11 +11,15 @@ zuul:
       path: /associacao/**
       serviceId: CAMPANHA-SERVICE
       stripPrefix: false
-    socioTorcedor:
-      path: /sociotorcedor/**
+    socio:
+      path: /socio/**
       serviceId: SOCIO-TORCEDOR-SERVICE
       stripPrefix: false
-
+    associarsocio:
+      path: /associarsocio/**
+      serviceId: SOCIO-TORCEDOR-SERVICE
+      stripPrefix: false  
+      
 eureka:
   client:
     registerWithEureka: false
